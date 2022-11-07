@@ -84,5 +84,54 @@ main {
 /* FOOTER */
 footer {
     height: 80px;
-    background-color: var(--custom-grey)
+    background-color: var(--custom-grey);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mic-vid {
+    color: white;
+    font-size: 30px;
+    height: 100%;
+    width: 120px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-angle-up {
+    font-size: 10px;
+}
+
+.action {
+    color: white;
+    font-size: 30px;
+    width: 750px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon.text {
+    text-align: center;
+}
+
+.icon.text > div {
+   font-size: 15px;
+   text-align: center;
+}
+
+.close {
+    background-color: var(--custom-light-grey);
+    width: 115px;
+    height: 100%;
+    color: red;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
