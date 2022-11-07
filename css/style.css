@@ -93,7 +93,7 @@ footer {
 
 .mic-vid {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     height: 100%;
     width: 120px;
     padding-left: 10px;
@@ -111,7 +111,7 @@ footer {
 
 .action {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     width: 750px;
 
     cursor: pointer;
@@ -128,6 +128,10 @@ footer {
 .icon.text > div {
    font-size: 15px;
    text-align: center;
+}
+
+.icon.text .fa-share-from-square {
+    color: #4bc800;
 }
 
 .close {
