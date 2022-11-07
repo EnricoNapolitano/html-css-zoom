@@ -1,0 +1,13 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COLOR PALETTE */
+:root {
+    --custom-light-grey: #4a4a4a;
+    --custom-gray: #222222;
+}
+
