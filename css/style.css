@@ -8,6 +8,23 @@
 /* COLOR PALETTE */
 :root {
     --custom-light-grey: #4a4a4a;
-    --custom-gray: #222222;
+    --custom-grey: #222222;
 }
 
+/* HEADER */
+header {
+    height: 80px;
+    background-color: black;
+}
+
+/* MAIN */
+main {
+    height: calc(100vh - 160px);
+    overflow-y: auto;
+}
+
+/* FOOTER */
+footer {
+    height: 80px;
+    background-color: var(--custom-grey)
+}
